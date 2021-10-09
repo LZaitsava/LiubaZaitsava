@@ -5,4 +5,9 @@
               <age>34</age>
               <pets>1</pets>
 	      <salary>800</salary>
+	      <film>A Walk to Remember</film>
+	      <serial>Breaking Bad</serial>
+	      <meal>Meat</meal>
+	      <season>Summer</season>
+	      <country>Japan</country>
 </personal_data>	      
