@@ -3,5 +3,10 @@
   "surname": "Zaitsava",
   "age": 34,
   "pets": 1,
-  "salary": 800
+  "salary": 800,
+  "film": "A Walk to Remember",
+  "serial": "Breaking Bad",
+  "meal": "Meat",
+  "season": "Summer",
+  "country": "Japan"
 } 
