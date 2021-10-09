@@ -1,0 +1,70 @@
+4. Создать файл “new.json” - touch new.json
+ 5. Добавить файл под гит. - git add new.json
+ 6. Закоммитить файл. - git commit -m 'add new.json'
+ 7. Отправить файл на внешний GitHub репозиторий. - git push
+ 8. Создать файлы new2.json, new2.xml, new2.txt - touch new2.json, new2.xml, new2.txt
+ 9. Добавить файлы под гит. - git add new2.json, new2.xml, new2.txt
+ 10. Закоммитить файлы. - git commit -m 'add new2.json,new2.xml,new2.txt'
+ 11. Отправить файлы на внешний GitHub репозиторий. - git push
+ 12. Отредактировать содержание файла “new2.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). - vim new2.txt
+ 13. Отредактировать содержание файла “new2.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.- vim new2.json
+{
+  "name": "Liubou",
+  "surname": "Zaitsava",
+  "age": 34,
+  "pets": 1,
+  "salary": 800
+}
+ 14. Добавить и закоммитить “new2.txt” одной строчкой. - git commit -am 'add personal data'
+ 15. Добавить и закоммитить “new2.json” одной строчкой.- git commit -am 'add personal data'
+ 16. Отправить изменения на внешний репозиторий. - git push
+ 17. Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML. - vim new2.xml
+<?xml version='1.0' encoding='UTF-8' ?>
+<personal_data>
+	      <name>Liubou</name>
+	      <surmane>Zaitsava</surname>
+              <age>34</age>
+              <pets>1</pets>
+	      <salary>800</salary>
+</personal_data>
+ 18. Добавить и закоммитить “new2.xml” одной строчкой. - git commit -am 'add personal data' 
+ 19. Отправить изменения на внешний репозиторий. - git push
+ 20. Отправить предыдущее домашнее задание по GitBush Terminal на внешний репозиторий. 
+- git add .
+- git commit -am 'homework1'
+- git push
+ 21. В веб интерфейсе GitHub создать файл new3.txt. - Add file/create new file
+ 22. Отредактировать в веб интерфейсе содержание файла “new3.txt” - написать информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). 
+ 23. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 24. Синхронизировать внешний и локальный репозитории (слить изменения с внешнего репозитория) - git pull
+ 25. Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате JSON. - Edite file 
+{
+  "name": "Liubou",
+  "surname": "Zaitsava",
+  "age": 34,
+  "pets": 1,
+  "salary": 800,
+  "film": "A Walk to Remember",
+  "serial": "Breaking Bad",
+  "meal": "Meat",
+  "season": "Summer",
+  "country": "Japan"
+} 
+ 26. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 27. Синхронизировать внешний и локальный репозитории - git pull
+ 28. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML.- Edite file
+<?xml version='1.0' encoding='UTF-8' ?>
+<personal_data>
+	      <name>Liubou</name>
+	      <surmane>Zaitsava</surname>
+              <age>34</age>
+              <pets>1</pets>
+	      <salary>800</salary>
+	      <film>A Walk to Remember</film>
+	      <serial>Breaking Bad</serial>
+	      <meal>Meat</meal>
+	      <season>Summer</season>
+	      <country>Japan</country>
+</personal_data>
+ 29. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 30. Синхронизировать внешний и локальный репозитории 
